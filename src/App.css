@@ -137,13 +137,17 @@
   }
 
   .app__wrapper_img img {
-    width: 100%;
+    width: 90%;
   }
 }
 
 @media screen and (max-width: 850px) {
   .section__padding {
     padding: 4rem;
+  }
+
+  .app__wrapper_img img {
+    width: 90%;
   }
 }
 
