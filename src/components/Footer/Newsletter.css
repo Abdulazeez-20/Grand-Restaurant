@@ -29,3 +29,34 @@
 .newsletter-input button {
     width: max-content;
 }
+
+@media screen and (min-width: 2000px) {
+   .newsletter-input input{
+      font-size: 2rem;
+   }
+}
+
+@media screen and (max-width: 990px) {
+   
+   .newsletter-input {
+      flex-direction: column;
+   }
+   
+   .newsletter-input input{
+      width: 100%;
+      margin: 0 0 2rem 0;
+   }
+}
+
+@media screen and (max-width: 650px) {
+   .newsletter {
+      padding: 2rem 1rem;
+   }
+}
+
+@media screen and (max-width: 450px) {
+   .newsletter-heading h1 {
+      font-size: 32px;
+      line-height: 60px;
+   }
+}
